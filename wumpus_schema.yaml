@@ -1,0 +1,140 @@
+openapi: 3.0.0
+info: 
+  title: WUMPUS API
+  version: 0.0.1
+servers:
+  - url: http://wumpus
+paths:
+  /init:
+    get:
+      summary: Get initial state
+      responses:
+        '5XX':
+          description: Rejected or Error
+        '2XX':
+          description: State Generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InitState'
+  /forward:
+    post:
+      summary: Move the character forward
+      requestBody:
+        $ref: '#/requestBodies/ActionBody'
+      responses:
+        '5XX':
+          description: Failure or Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+        '2XX':
+          description: Action Completed Successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /right:
+    post:
+      summary: Turn the character to the right
+      requestBody:
+        $ref: '#/requestBodies/ActionBody'
+      responses:
+        '5XX':
+          description: Failure or Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+        '2XX':
+          description: Action Completed Successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /left:
+    post:
+      summary: Turn the character to the left
+      requestBody:
+        $ref: '#/requestBodies/ActionBody'
+      responses:
+        '5XX':
+          description: Failure or Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+        '2XX':
+          description: Action Completed Successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /grab:
+    post:
+      summary: Attempt to grab the gold
+      requestBody:
+        $ref: '#/requestBodies/ActionBody'
+      responses:
+        '5XX':
+          description: Failure or Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+        '2XX':
+          description: Action Completed Successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+  /climb:
+    post:
+      summary: Attempt to climb out of the cave
+      requestBody:
+        $ref: '#/requestBodies/ActionBody'
+      responses:
+        '5XX':
+          description: Failure or Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+        '2XX':
+          description: Action Completed Successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ActionResult'
+components:
+  requestBodies:
+    ActionBody:
+      description: Contains the state to be used for an action
+      required: true
+      content:
+        application/json:
+          schema: '#/components/schemas/InitState'
+  schemas:
+    InitState:
+      type: object
+      properties:
+        state:
+          type: array
+          items:
+            type: string
+          minItems: 1
+    ActionResult:
+      type: object
+      properties:
+        action:
+          type: string
+          enum:
+            - ok
+            - failure
+        state:
+          type: array
+          items:
+            type: string
+          minItems: 1
+
