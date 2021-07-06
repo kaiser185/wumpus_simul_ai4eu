@@ -2,6 +2,8 @@
 
 <img src="wumpus.png" width="300">
 
+Image taken from Artificial Intelligence: A Modern Approach by Stuart Russel and Peter Norvig (3 ed.)
+
 This is a simulator of the Wumpus World intelligent agent environment developed by the Center for Research for Informatics at University of Paris 1 Panthéon-Sorbonne. This simulator is delivered as an asset to the AI4EU platform as part of the verifiable AI research task of the AI4EU H2020 project. Made famous by Stuart Russell and Peter Norvig's seminal texbook Artificial Intelligence a Modern Approach, the Wumpus World is a didactic maze game  providing the simplest possible intelligent agent environment that is still challenging enough to illustrate many key AI concepts.
 
 Our simulator is delivered as containerized REST web service. It accepts http requests from an client agent sending as payload  exploration actions to execute in the Wumpus World. As response it returns  a JSON object containing the percepts of the agent in the new state of the world updated by the consequences of the sent action, together with some additional simulation status information.
