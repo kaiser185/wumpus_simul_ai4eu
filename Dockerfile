@@ -33,6 +33,9 @@ RUN useradd -ms /bin/bash logtalk
 
 COPY src/ ${WORKDIR}/
 
+COPY ./init.pl ${WORKDIR}/.config/swi-prolog/
+COPY ./settings.lgt ${LOGTALKUSER}/
+
 RUN chmod a+x ${WORKDIR}/daemon.sh
 
 RUN touch httpd.log

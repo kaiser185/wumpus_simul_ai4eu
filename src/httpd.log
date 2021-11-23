@@ -1,0 +1,17 @@
+server(started, 1637529278).
+/*Sun Nov 21 22:14:37 2021*/ request(1, 1637529277.928, [peer(ip(127,0,0,1)),method(get),request_uri('/init'),path('/init'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0')]).
+completed(1, 0.028047424, 436, 500, error("goal unexpectedly failed: user: >>([_780],server::init_sim(_780),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7fdc1c0052c0),<stream>(0x7fdc1c005420))),input(<stream>(0x7fdc1c0052c0)),method(get),request_uri('/init'),path('/init'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),accept([media(_964/_966,[],1.0,[])])])")).
+/*Sun Nov 21 22:18:53 2021*/ request(2, 1637529533.823, [peer(ip(127,0,0,1)),method(get),request_uri('/init'),path('/init'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(107)]).
+completed(2, 0.0003398900000000024, 70, 500, error("Domain error: `method' expected, found `get'")).
+/*Sun Nov 21 22:19:01 2021*/ request(3, 1637529541.016, [peer(ip(127,0,0,1)),method(post),request_uri('/init'),path('/init'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(107)]).
+     1      2      3      4   
+1 |  v E||P  G ||     ||     |
+2 |     || W   ||     ||     |
+3 |   G ||   G || W G ||   G |
+4 |P    ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(3, 0.033223425, 111, 200, ok).
+server(stopped, 1637533369).
