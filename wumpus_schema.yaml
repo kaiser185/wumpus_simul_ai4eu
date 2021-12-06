@@ -1,16 +1,15 @@
-#### THIS IS OUTDATED
-#### TODO: GET THIS UP TO DATE with V.1
-#### SEE README.md for now
 openapi: 3.0.0
 info: 
   title: WUMPUS API
   version: 0.0.1
 servers:
-  - url: http://wumpus
+  - url: http://localhost:8081/
 paths:
   /init:
-    get:
+    post:
       summary: Get initial state
+      requestBody:
+        $ref: '#/components/requestBodies/InitBody'
       responses:
         '5XX':
           description: Rejected or Error
@@ -19,12 +18,24 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/InitState'
+                $ref: '#/components/schemas/Start'
+  /debug:
+    post:
+      summary: Get the default initial state
+      responses:
+        '5XX':
+          description: Rejected or Error
+        '2XX':
+          description: State Generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Start'
   /forward:
     post:
       summary: Move the character forward
       requestBody:
-        $ref: '#/requestBodies/ActionBody'
+        $ref: '#/components/requestBodies/ActionBody'
       responses:
         '5XX':
           description: Failure or Error
@@ -42,7 +53,7 @@ paths:
     post:
       summary: Turn the character to the right
       requestBody:
-        $ref: '#/requestBodies/ActionBody'
+        $ref: '#/components/requestBodies/ActionBody'
       responses:
         '5XX':
           description: Failure or Error
@@ -60,7 +71,7 @@ paths:
     post:
       summary: Turn the character to the left
       requestBody:
-        $ref: '#/requestBodies/ActionBody'
+        $ref: '#/components/requestBodies/ActionBody'
       responses:
         '5XX':
           description: Failure or Error
@@ -78,7 +89,7 @@ paths:
     post:
       summary: Attempt to grab the gold
       requestBody:
-        $ref: '#/requestBodies/ActionBody'
+        $ref: '#/components/requestBodies/ActionBody'
       responses:
         '5XX':
           description: Failure or Error
@@ -96,7 +107,7 @@ paths:
     post:
       summary: Attempt to climb out of the cave
       requestBody:
-        $ref: '#/requestBodies/ActionBody'
+        $ref: '#/components/requestBodies/ActionBody'
       responses:
         '5XX':
           description: Failure or Error
@@ -112,21 +123,54 @@ paths:
                 $ref: '#/components/schemas/ActionResult'
 components:
   requestBodies:
-    ActionBody:
-      description: Contains the state to be used for an action
+    InitBody:
+      description: Contains the initialization request body
       required: true
       content:
         application/json:
-          schema: '#/components/schemas/InitState'
+          schema:
+            $ref: '#/components/schemas/InitState'
+    ActionBody:
+      description: Contains the simulation id to be used for an action
+      required: true
+      content:
+        application/json:
+          schema: 
+            $ref: '#/components/schemas/UUID'
   schemas:
     InitState:
+      description: Describes the initialization parameters for the simulation
       type: object
       properties:
-        state:
+        height:
+          type: integer
+        width:
+          type: integer
+        arrow_num:
+          type: integer
+        gold_density:
+          type: number
+        wumpus_density:
+          type: number
+        pit_density:
+          type: number
+    Start:
+      description: Contains the initial percepts and the user's unique id for his session
+      type: object
+      properties: 
+        percepts:
           type: array
           items:
             type: string
-          minItems: 1
+            enum: 
+              - breeze
+              - stench
+              - glitter
+        status:
+          type: string
+        uuid:
+          type: string
+        
     ActionResult:
       type: object
       properties:
@@ -134,10 +178,23 @@ components:
           type: string
           enum:
             - ok
-            - failure
-        state:
+            - Simulation Halted - You Win
+            - Simulation Halted - You Lose (No gold)
+            - Simulation Halted - Agent Dead
+        percepts:
           type: array
           items:
             type: string
-          minItems: 1
+            enum: 
+              - breeze
+              - stench
+              - glitter
+              - scream
+              - bump
+    UUID:
+      description: Contains user's unique ID for his current simulation
+      type: object
+      properties:
+        uuid:
+          type: string
 

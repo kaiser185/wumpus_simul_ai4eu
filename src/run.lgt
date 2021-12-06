@@ -12,14 +12,14 @@ version: 0.1
 *******************************************************************************/
 
 :- use_module(library(http/http_unix_daemon), [http_daemon/1]).
-:- use_module(library(main)).
-:- use_module(library(settings), [setting/4]).
+:- use_module(library(settings), [set_setting/2]).
 :- use_module(library(http/http_log), [http_log_stream/1]).
+:- use_module(library(main)).
+
+{:- set_setting(http:logfile, '/root/httpd.log')}.
 
 %% This sets the application entrypoint to run.
 :- initialization(run, main).
-
-{:- setting(http, logfile, '/root/httpd.log', 'Log file name')}.
 
 %% When running as a deamon this is the application entrypoint (main)
 run :-

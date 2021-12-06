@@ -9,6 +9,28 @@ of environments to easily create tests with known effects.
 
 version: 0.1
 *******************************************************************************/
+:- object(test_env).
+:- use_module(lists, [member/2]).
+:- public([
+	aima_case_default/1,
+	aima_case_at_pos/3,
+	mini/1,
+	mini_one_w/1,
+	mini_no_w/1,
+	mini_no_w_facingsouth/1,
+	mini_pit/1,
+	tiny_pit/1,
+	tiny_gold/1,
+	tiny_gold_already/1,
+	tiny_no_pit/1,
+	mini2/1,
+	mini2_east/1,
+	mini2_west/1,
+	mini2_south/1,
+	mini2_sand/1
+]).
+
+
 aima_case_default(S) :-
 	S = wwstate(
 		[
@@ -348,3 +370,5 @@ mini2_sand(S) :-
 			wall(0,4),wall(1,4),wall(2,4),wall(3,4),wall(4,4)
 		]
 	).
+
+:- end_object.

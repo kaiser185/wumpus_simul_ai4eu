@@ -1,0 +1,466 @@
+server(started, 1638240412).
+/*Tue Nov 30 03:46:52 2021*/ request(1, 1638240412.057, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.046400578000000005, 107, 200, ok).
+/*Tue Nov 30 03:46:52 2021*/ request(2, 1638240412.112, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.036088069, 107, 200, ok).
+/*Tue Nov 30 03:46:52 2021*/ request(3, 1638240412.157, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:2e8d9627-3b70-4fb0-afa2-9ddf336c5f5a} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(3, 0.030793793999999992, 50, 200, ok).
+/*Tue Nov 30 03:46:52 2021*/ request(4, 1638240412.204, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(4, 0.0358734, 107, 200, ok).
+/*Tue Nov 30 03:46:52 2021*/ request(5, 1638240412.250, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5564{uuid:d12f993e-4351-4fe9-8d5d-e30687da4be5} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(5, 0.030338586, 50, 200, ok).
+server(stopped, 1638240475).
+server(started, 1638240536).
+/*Tue Nov 30 03:48:56 2021*/ request(1, 1638240536.401, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.045743137, 107, 200, ok).
+/*Tue Nov 30 03:48:56 2021*/ request(2, 1638240536.454, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.03475080999999999, 107, 200, ok).
+/*Tue Nov 30 03:48:56 2021*/ request(3, 1638240536.498, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _19770{uuid:613e5540-35e3-4e53-82c3-8c8173542581} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(3, 0.031350038, 50, 200, ok).
+/*Tue Nov 30 03:48:56 2021*/ request(4, 1638240536.542, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5114{uuid:613e5540-35e3-4e53-82c3-8c8173542581} 
+completed(4, 0.002001374, 43, 200, ok).
+server(stopped, 1638240541).
+server(started, 1638240778).
+/*Tue Nov 30 03:52:57 2021*/ request(1, 1638240777.872, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.04664662, 107, 200, ok).
+/*Tue Nov 30 03:53:02 2021*/ request(2, 1638240782.555, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.037417922, 107, 200, ok).
+/*Tue Nov 30 03:54:20 2021*/ request(3, 1638240860.685, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(3, 0.036737457, 107, 200, ok).
+/*Tue Nov 30 03:54:33 2021*/ request(4, 1638240873.499, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(4, 0.03746034399999999, 107, 200, ok).
+/*Tue Nov 30 03:54:33 2021*/ request(5, 1638240873.550, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5728{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(5, 0.031850683, 50, 200, ok).
+/*Tue Nov 30 03:54:33 2021*/ request(6, 1638240873.595, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+completed(6, 0.0022855699999999937, 43, 200, ok).
+/*Tue Nov 30 03:54:37 2021*/ request(7, 1638240877.400, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(7, 0.036728922000000004, 107, 200, ok).
+/*Tue Nov 30 03:54:37 2021*/ request(8, 1638240877.449, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+completed(8, 0.000733758000000001, 490, 500, error("goal unexpectedly failed: user: >>([_3286],server::fwd(_3286),[pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7f19cc006320),<stream>(0x7f19cc006480))),peer(ip(127,0,0,1)),protocol(http),input(<stream>(0x7f19cc006320)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_3480/_3482,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 03:54:37 2021*/ request(9, 1638240877.461, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4572{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+completed(9, 0.0004813910000000046, 490, 500, error("goal unexpectedly failed: user: >>([_3264],server::fwd(_3264),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7f19c0014770),<stream>(0x7f19c0012720))),input(<stream>(0x7f19c0014770)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_3458/_3460,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 03:55:56 2021*/ request(10, 1638240956.343, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(10, 0.036778716999999995, 107, 200, ok).
+/*Tue Nov 30 03:55:56 2021*/ request(11, 1638240956.395, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5446{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+completed(11, 0.0005521820000000018, 490, 500, error("goal unexpectedly failed: user: >>([_4138],server::fwd(_4138),[pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7f19c4008f60),<stream>(0x7f19c4005550))),peer(ip(127,0,0,1)),protocol(http),input(<stream>(0x7f19c4008f60)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_4332/_4334,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 03:55:56 2021*/ request(12, 1638240956.408, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4564{uuid:e53c69e0-bd8a-4385-a114-2ec3d8828a67} 
+completed(12, 0.0005405860000000026, 490, 500, error("goal unexpectedly failed: user: >>([_3256],server::fwd(_3256),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7f19cc009800),<stream>(0x7f19cc0099f0))),input(<stream>(0x7f19cc009800)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_3450/_3452,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 04:09:14 2021*/ request(13, 1638241754.966, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(13, 0.03681758700000001, 107, 200, ok).
+/*Tue Nov 30 04:10:31 2021*/ request(14, 1638241831.798, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(14, 0.036595406, 107, 200, ok).
+/*Tue Nov 30 04:10:31 2021*/ request(15, 1638241831.863, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:83ae532e-ca6e-48c9-85f4-1a3ee4457599} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(15, 0.030555624000000003, 50, 200, ok).
+/*Tue Nov 30 04:10:31 2021*/ request(16, 1638241831.913, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:83ae532e-ca6e-48c9-85f4-1a3ee4457599} 
+completed(16, 0.0020036519999999947, 43, 200, ok).
+/*Tue Nov 30 04:10:33 2021*/ request(17, 1638241833.870, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(17, 0.037020102, 107, 200, ok).
+/*Tue Nov 30 04:10:33 2021*/ request(18, 1638241833.926, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:3d69f517-79b9-4f87-8991-37c028ba59c5} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(18, 0.031077893000000023, 50, 200, ok).
+/*Tue Nov 30 04:10:33 2021*/ request(19, 1638241833.975, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:3d69f517-79b9-4f87-8991-37c028ba59c5} 
+completed(19, 0.0020604069999999863, 43, 200, ok).
+/*Tue Nov 30 04:10:34 2021*/ request(20, 1638241834.673, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(20, 0.036598191999999974, 107, 200, ok).
+/*Tue Nov 30 04:10:34 2021*/ request(21, 1638241834.728, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:2f493663-d478-4475-ac05-344689d3b3e2} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(21, 0.030354486999999986, 50, 200, ok).
+/*Tue Nov 30 04:10:34 2021*/ request(22, 1638241834.775, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:2f493663-d478-4475-ac05-344689d3b3e2} 
+completed(22, 0.0019561130000000093, 43, 200, ok).
+/*Tue Nov 30 04:10:35 2021*/ request(23, 1638241835.354, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(23, 0.03698004899999999, 107, 200, ok).
+/*Tue Nov 30 04:10:35 2021*/ request(24, 1638241835.412, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:af60c9f0-6b10-4168-bd4b-baef3d991c3d} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(24, 0.030446250000000008, 50, 200, ok).
+/*Tue Nov 30 04:10:35 2021*/ request(25, 1638241835.461, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4586{uuid:af60c9f0-6b10-4168-bd4b-baef3d991c3d} 
+completed(25, 0.001957580999999986, 43, 200, ok).
+server(stopped, 1638241841).
+server(started, 1638243046).
+/*Tue Nov 30 04:30:46 2021*/ request(1, 1638243046.148, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.045800929, 107, 200, ok).
+/*Tue Nov 30 04:30:48 2021*/ request(2, 1638243048.542, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _7612{uuid:b9827571-9b1a-481e-b59e-8858ab94f204} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.032084694, 50, 200, ok).
+/*Tue Nov 30 04:30:49 2021*/ request(3, 1638243049.819, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5564{uuid:b9827571-9b1a-481e-b59e-8858ab94f204} 
+completed(3, 0.003856754, 43, 200, ok).
+/*Tue Nov 30 04:34:01 2021*/ request(4, 1638243241.773, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(4, 0.03670633500000001, 107, 200, ok).
+/*Tue Nov 30 04:34:06 2021*/ request(5, 1638243246.057, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4572{uuid:0a5efe9a-5abc-4db8-8ac8-7af747085813} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(5, 0.033500608, 50, 200, ok).
+/*Tue Nov 30 04:37:43 2021*/ request(6, 1638243463.096, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5542{uuid:0a5efe9a-5abc-4db8-8ac8-7af747085813} 
+completed(6, 0.0021167629999999937, 43, 200, ok).
+/*Tue Nov 30 04:37:49 2021*/ request(7, 1638243469.066, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4568{uuid:0a5efe9a-5abc-4db8-8ac8-7af747085813} 
+completed(7, 0.0007918199999999986, 490, 500, error("goal unexpectedly failed: user: >>([_3260],server::fwd(_3260),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7fd9a4008610),<stream>(0x7fd9a4005550))),input(<stream>(0x7fd9a4008610)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_3454/_3456,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 04:37:50 2021*/ request(8, 1638243470.582, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(8, 0.036250758, 107, 200, ok).
+/*Tue Nov 30 04:37:50 2021*/ request(9, 1638243470.638, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:376d152b-6466-4d0b-bc85-55d3fd9220d3} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(9, 0.029825181999999992, 50, 200, ok).
+/*Tue Nov 30 04:37:50 2021*/ request(10, 1638243470.683, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _4594{uuid:376d152b-6466-4d0b-bc85-55d3fd9220d3} 
+completed(10, 0.0020115429999999768, 43, 200, ok).
+server(stopped, 1638284530).
+server(started, 1638297090).
+/*Tue Nov 30 19:31:30 2021*/ request(1, 1638297090.447, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+completed(1, 0.012034879, 26, 500, error("")).
+/*Tue Nov 30 19:31:30 2021*/ request(2, 1638297090.478, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _7612{uuid:376d152b-6466-4d0b-bc85-55d3fd9220d3} 
+completed(2, 0.002083645, 490, 500, error("goal unexpectedly failed: user: >>([_6902],server::fwd(_6902),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7fa48c005260),<stream>(0x7fa48c0053c0))),input(<stream>(0x7fa48c005260)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_7096/_7098,[],1.0,[])]),content_length(52)])")).
+/*Tue Nov 30 19:31:30 2021*/ request(3, 1638297090.499, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5542{uuid:376d152b-6466-4d0b-bc85-55d3fd9220d3} 
+completed(3, 0.0007376130000000002, 490, 500, error("goal unexpectedly failed: user: >>([_4234],server::fwd(_4234),[protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8081',http_dispatch:http_dispatch,<stream>(0x7fa474005260),<stream>(0x7fa4740053c0))),input(<stream>(0x7fa474005260)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),accept([media(_4428/_4430,[],1.0,[])]),content_length(52)])")).
+server(stopped, 1638297108).
+server(started, 1638297148).
+/*Tue Nov 30 19:32:28 2021*/ request(1, 1638297148.055, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.048036982, 107, 200, ok).
+/*Tue Nov 30 19:32:28 2021*/ request(2, 1638297148.158, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _1312{uuid:648fa7cf-1cd5-410a-a812-b7dd1790ac63} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.032437236, 50, 200, ok).
+/*Tue Nov 30 19:32:28 2021*/ request(3, 1638297148.207, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5564{uuid:648fa7cf-1cd5-410a-a812-b7dd1790ac63} 
+completed(3, 0.002361186, 43, 200, ok).
+server(stopped, 1638321334).
+server(started, 1638386771).
+/*Wed Dec  1 20:26:11 2021*/ request(1, 1638386771.442, [peer(ip(127,0,0,1)),method(post),request_uri('/debug'),path('/debug'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_length(0)]).
+     1      2      3      4   
+1 |  v E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(1, 0.046371682000000004, 107, 200, ok).
+/*Wed Dec  1 20:26:11 2021*/ request(2, 1638386771.521, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _1312{uuid:68e5b806-e931-4258-8473-1b30cef87dc9} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |  v  ||     ||     ||     |
+3 | W   ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(2, 0.031005223999999998, 50, 200, ok).
+/*Wed Dec  1 20:26:11 2021*/ request(3, 1638386771.578, [peer(ip(127,0,0,1)),method(post),request_uri('/forward'),path('/forward'),http_version(1-1),host(localhost),port(8081),user_agent('insomnia/2021.6.0'),content_type('application/json'),content_length(52)]).
+Received data _5564{uuid:68e5b806-e931-4258-8473-1b30cef87dc9} 
+     1      2      3      4   
+1 |    E||     ||P    ||     |
+2 |     ||     ||     ||     |
+3 | Wv  ||   G ||P    ||     |
+4 |     ||     ||     ||P    |
+P = Pit, (W/X) = (Alive/Dead) Wumpus,
+(^/>/</v) = Agent, G = Gold, E = Exit 
+Top left corner is (1,1), x augments to the right 
+y augments down, north is down, east is to the right
+completed(3, 0.040905951, 41, 200, ok).
+server(stopped, 1638392285).

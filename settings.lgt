@@ -475,5 +475,5 @@ logtalk_library_path(Library, third_party_libraries(LibraryPath)) :-
    set_logtalk_flag(events,allow),
    logtalk_load(meta_compiler(loader)),
    set_logtalk_flag(hook, meta_compiler),
-   logtalk_load([types(loader),meta(loader),random(loader),uuid(loader)])
+   logtalk_load([arbitrary(loader),types(loader),meta(loader),random(loader),uuid(loader)])
 )).

@@ -60,7 +60,7 @@ version: 0.1
 	create_debug_session(UUID, WWState) :-
 		%retractall(simulation_(Brand, _)),
 		uuid::uuid_v4(UUID),
-		user::aima_case_default(WWState),
+		test_env::aima_case_default(WWState),
 		assertz(simulation_(UUID, WWState, 1)).
 
 	%% Remove all the facts from the given config

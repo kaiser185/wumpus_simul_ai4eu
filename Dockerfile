@@ -1,5 +1,5 @@
 #CREDIT TO Salvador Abreu for the initial version of this dockerfile
-FROM debian:bullseye-slim
+FROM debian:stable-slim
 
 ENV WORKDIR=/root
 WORKDIR ${WORKDIR}
@@ -17,17 +17,19 @@ ${LOGTALKHOME}/scripts:${LOGTALKHOME}/integration:
 
 ENV MANPATH=${MANPATH}:${LOGTALKHOME}/man
 
-ENV LGTVERS=3.47.0-1
+ENV LGTVERS=3.51.0-1
 ENV LGTDEB=logtalk_${LGTVERS}_all.deb
 
-RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get install -y --no-install-recommends swi-prolog-nox
-RUN apt-get install -y wget
+RUN apt-get update \
+&& apt-get upgrade -y \
+&& apt-get install -y --no-install-recommends swi-prolog-nox \
+&& apt-get install -y wget
 
 RUN [ -e ${WORKDIR}/${LGTDEB} ] || wget -q https://logtalk.org/files/${LGTDEB} 
 RUN dpkg -i ${WORKDIR}/${LGTDEB}
 RUN rm -f ${WORKDIR}/${LGTDEB}
+
+RUN logtalk_user_setup
 
 RUN useradd -ms /bin/bash logtalk
 
@@ -42,7 +44,7 @@ RUN touch httpd.log
 RUN chown logtalk:logtalk ${WORKDIR}/httpd.log
 RUN chown logtalk:logtalk ${WORKDIR}/.lgt_tmp
 
-RUN swilgt -g "halt"
+#RUN swilgt -g "halt"
 
 RUN chown logtalk:logtalk ${WORKDIR}/logtalk
 

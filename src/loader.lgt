@@ -26,6 +26,7 @@ version: 0.2
 		wwaction,
 		wwpercept,
 		server,
-		test_cases
+		test_cases,
+		wwtypes
 	],[/*debug(on)*/])
 )).
